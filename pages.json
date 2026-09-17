@@ -1,0 +1,123 @@
+{
+	"pages": [ 
+		{ "path": "pages/index/index", "style": { "navigationBarTitleText": "C2C 二手交易平台", "navigationBarBackgroundColor": "#ff4142", "navigationBarTextStyle": "white", "enablePullDownRefresh": true } },
+		{ "path": "pages/my/my", "style": { "navigationBarTitleText": "我的", "navigationBarBackgroundColor": "#ff4142", "navigationBarTextStyle": "white" } },
+		{ "path": "pages/publish/publish", "style": { "navigationBarTitleText": "发布闲置", "navigationBarBackgroundColor": "#ffffff", "navigationBarTextStyle": "black" } },
+		{ "path": "pages/login/login", "style": { "navigationBarTitleText": "欢迎登录", "navigationBarBackgroundColor": "#ffffff", "navigationBarTextStyle": "black" } },
+		{ "path": "pages/detail/detail", "style": { "navigationBarTitleText": "宝贝详情", "navigationBarBackgroundColor": "#ffffff", "navigationBarTextStyle": "black" } },
+		{ "path": "pages/order/list", "style": { "navigationBarTitleText": "我的订单", "navigationBarBackgroundColor": "#ffffff", "navigationBarTextStyle": "black", "enablePullDownRefresh": true } },
+		
+		{ "path": "pages/cart/cart", "style": { "navigationBarTitleText": "购物车", "navigationBarBackgroundColor": "#f6f6f6" } },
+		{ "path": "pages/message/message", "style": { "navigationBarTitleText": "消息列表", "navigationBarBackgroundColor": "#ffffff" } },
+		
+		/* 🚨 核心修改：TA的主页 */
+		{ "path": "pages/profile/profile", "style": { "navigationBarTitleText": "TA的主页", "navigationBarBackgroundColor": "#f6f6f6" } },
+		
+		{ "path": "pages/my/history", "style": { "navigationBarTitleText": "浏览记录" } },
+		{ 
+			"path": "pages/message/chat", 
+			"style": { 
+				"navigationBarTitleText": "聊一聊", 
+				"navigationBarBackgroundColor": "#f6f6f6",
+				"app-plus": { "softinputNavBar": "none" }
+			} 
+		},
+		{
+			"path": "pages/my/edit",
+			"style": {
+				"navigationBarTitleText": "编辑资料",
+				"navigationBarBackgroundColor": "#f6f6f6"
+			}
+		},
+		{
+			"path": "pages/my/follow",
+			"style": {
+				"navigationBarTitleText": "我的关注",
+				"navigationBarBackgroundColor": "#f6f6f6"
+			}
+		},
+/* 🚨 新增：我的粉丝页面 */
+		{
+			"path": "pages/my/fans",
+			"style": {
+				"navigationBarTitleText": "我的粉丝",
+				"navigationBarBackgroundColor": "#f6f6f6"
+			}
+		},
+		{
+			"path": "pages/my/published",
+			"style": {
+				"navigationBarTitleText": "我发布的",
+				"navigationBarBackgroundColor": "#f6f6f6"
+			}
+		},
+		{
+			"path": "pages/my/edit-item",
+			"style": {
+				"navigationBarTitleText": "编辑商品",
+				"navigationBarBackgroundColor": "#f6f6f6"
+			}
+		},
+		{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#f6f6f6"
+			}
+		},
+		{
+			"path": "pages/order/review",
+			"style": {
+				"navigationBarTitleText": "发表评价",
+				"navigationBarBackgroundColor": "#f6f6f6"
+			}
+		},
+		{
+			"path": "pages/my/reviews",
+			"style": {
+				"navigationBarTitleText": "我的评价",
+				"navigationBarBackgroundColor": "#f6f6f6"
+			}
+		},
+		
+		{
+	      "path": "pages/my/address/list",
+	      "style": {
+	        "navigationBarTitleText": "我的收货地址"
+	      }
+	    },
+	    {
+	      "path": "pages/my/address/edit",
+	      "style": {
+	        "navigationBarTitleText": "收货地址"
+	      }
+	    },
+		{ 
+			"path": "pages/login/register", 
+			"style": { 
+				"navigationBarTitleText": "注册账号", 
+				"navigationBarBackgroundColor": "#ffffff", 
+				"navigationBarTextStyle": "black" 
+			} 
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#ff4142",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{ "pagePath": "pages/index/index", "text": "首页" },
+			{ "pagePath": "pages/cart/cart", "text": "购物车" },
+			{ "pagePath": "pages/publish/publish", "text": "发布" },
+			{ "pagePath": "pages/message/message", "text": "消息" },
+			{ "pagePath": "pages/my/my", "text": "我的" }
+		]
+	}
+}
